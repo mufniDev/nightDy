@@ -20,5 +20,3 @@ Jika Anda mengalami masalah atau memiliki pertanyaan, silakan buka masalah di re
 ## Credits
 
 This theme was created by mufniDev
-
-This site was built using [GitHub Pages](https://pages.github.com/).
