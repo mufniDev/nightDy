@@ -20,4 +20,4 @@ Jika Anda mengalami masalah atau memiliki pertanyaan, silakan buka masalah di re
 
 ## Credits
 
-This theme was created by MufniDev (https://github.com/mufniDev)
+This theme was created by [mufni.Dev](https://github.com/mufniDev)
