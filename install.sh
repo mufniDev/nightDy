@@ -11,16 +11,16 @@ clear
 # Fungsi untuk membuat backup dari directory pterodactyl
 installTheme(){
     cd /var/www/
-    tar -cvf MinecraftPurpleThemebackup.tar.gz pterodactyl
+    tar -cvf nightDy.tar.gz pterodactyl
     echo "Memasang tema...tunggu ya"
     cd /var/www/pterodactyl
-    rm -r MinecraftPurpleTheme
-    git clone https://github.com/Angelillo15/MinecraftPurpleTheme.git
-    cd MinecraftPurpleTheme
-    rm /var/www/pterodactyl/resources/scripts/MinecraftPurpleTheme.css
+    rm -r nightDy
+    git clone https://github.com/mufniDev/nightDy.git
+    cd nightDy
+    rm /var/www/pterodactyl/resources/scripts/mufniDev.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
     mv index.tsx /var/www/pterodactyl/resources/scripts/index.tsx
-    mv MinecraftPurpleTheme.css /var/www/pterodactyl/resources/scripts/MinecraftPurpleTheme.css
+    mv mufniDev.css /var/www/pterodactyl/resources/scripts/mufniDev.css
     cd /var/www/pterodactyl
 
     # Install dependencies
@@ -67,15 +67,18 @@ restoreBackUp(){
 
 # Menampilkan menu pilihan
 echo "Copyright © nightDy | by mufni.Dev"
-echo "dilarang mengedit, mendistribusikan, script ini tanpa seijin creator"
+echo "script ini 100% GRATIS, anda bisa mengedit, mendistribusikan."
+echo "Tapi anda tidak boleh memperjual belikan script ini tanpa seijin developer"
+echo "#RespectTheDevelopers"
 echo ""
-echo "Discord: gak ada"
+echo "Discord:-"
+echo "GitHub: https://github.com/mufniDev"
 echo "Website: https://mufni.rf.gd"
 echo ""
-echo "[❶] Pasang tema"
-echo "[❷] Pulihkan backup"
-echo "[❸] perbaiki panel (gunakan jika kamu mengalami error saat menginstall tema)"
-echo "[❹] Keluar"
+echo "[1] Pasang tema"
+echo "[2] Pulihkan backup"
+echo "[3] perbaiki panel (gunakan jika mengalami error)"
+echo "[4] Keluar"
 
 # Meminta user untuk memilih pilihan
 read -p "Mohon masukkan angka: " choice
