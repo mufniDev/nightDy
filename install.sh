@@ -50,7 +50,7 @@ installThemeQuestion(){
 
 # Fungsi untuk memperbaiki panel jika terjadi error pada saat menginstall theme
 repair(){
-    bash <(curl https://raw.githubusercontent.com/Angelillo15/MinecraftPurpleTheme/main/repair.sh)
+    bash <(curl https://raw.githubusercontent.com/mufniDev/nightDy/main/repair.sh)
 }
 
 # Fungsi untuk mengembalikan backup dari directory pterodactyl
