@@ -19,8 +19,10 @@ installTheme(){
     cd nightDy
     rm /var/www/pterodactyl/resources/scripts/mufniDev.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
+    rm /var/www/pterodactyl/resources/scripts/components/NavigationBar.tsx
     mv index.tsx /var/www/pterodactyl/resources/scripts/index.tsx
     mv mufniDev.css /var/www/pterodactyl/resources/scripts/mufniDev.css
+    mv NavigationBar.tsx /var/www/pterodactyl/resources/NavigationBar.tsx
     cd /var/www/pterodactyl
 
     # Install dependencies
