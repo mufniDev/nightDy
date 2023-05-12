@@ -15,7 +15,7 @@ bash <(curl https://raw.githubusercontent.com/mufniDev/nightDy/main/install.sh)
 
 ## Support
 
-Jika Anda mengalami masalah atau memiliki pertanyaan, silakan buka masalah di repositori ini.
+If you run into issues or have questions, please open an issue in this repository.
 
 ## Credits
 
