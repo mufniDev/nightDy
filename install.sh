@@ -24,7 +24,7 @@ installTheme(){
     cd /var/www/pterodactyl
 
     # Install dependencies
-    curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+    curl -sL https://deb.nodesource.com/setup_14.x | bash -
     apt update
     apt install -y nodejs
 
@@ -33,7 +33,7 @@ installTheme(){
 
     cd /var/www/pterodactyl
     yarn build:production
-    sudo php artisan optimize:clear
+    php artisan optimize:clear
 }
 
 # Fungsi untuk menanyakan user apakah yakin ingin menginstall theme atau tidak
@@ -62,7 +62,7 @@ restoreBackUp(){
 
     cd /var/www/pterodactyl
     yarn build:production
-    sudo php artisan optimize:clear
+    php artisan optimize:clear
 }
 
 # Menampilkan menu pilihan
